@@ -16,7 +16,12 @@ namespace WAD.CW._16634.Controllers
             _optionRepository = optionRepository;
             _uniqueTitleValidator = new OptionTextValidator(optionRepository); 
         }
-
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<Option>>> GetOptions()
+        {
+            var options = await _optionRepository.GetAllOptionsAsync();
+            return Ok(options);
+        }
         // 16634}
         [HttpGet("{id}")]
         public ActionResult<Option> GetOption(int id)
@@ -34,40 +39,54 @@ namespace WAD.CW._16634.Controllers
         public ActionResult CreateOption([FromBody] Option option)
         {
 
-            option.Attach(_uniqueTitleValidator);
+            try
+            {
+               
+                option.Attach(_uniqueTitleValidator);
+                option.Notify();
 
-   
-            option.Notify(); 
-            _optionRepository.Add(option);
+              
+                _optionRepository.Add(option);
 
-            return Ok($"Option '{option.OptionText}' created successfully.");
+                return Ok($"Option '{option.OptionText}' created successfully.");
+            }
+            catch (InvalidOperationException ex)
+            {
+                
+                return BadRequest(new { ErrorMessage = ex.Message });
+            }
         }
 
         [HttpPut("{id}")]
         public IActionResult UpdateOption(int id, [FromBody] Option updatedOption)
         {
+            
             if (id != updatedOption.OptionId)
             {
-                return BadRequest();
+                return BadRequest("Option ID mismatch.");
             }
 
+            
             var existingOption = _optionRepository.GetById(id);
             if (existingOption == null)
             {
                 return NotFound();
             }
 
-        
-            updatedOption.Attach(_uniqueTitleValidator);
+            
+            _uniqueTitleValidator.ValidateOption(updatedOption);
 
+          
+            existingOption.UpdateTitle(updatedOption.OptionText);
 
-            updatedOption.UpdateTitle(updatedOption.OptionText);
-            _optionRepository.Update(updatedOption);
+      
+            _optionRepository.Update(existingOption);
 
             return NoContent();
         }
 
- 
+
+
         [HttpDelete("{id}")]
         public IActionResult DeleteOption(int id)
         {

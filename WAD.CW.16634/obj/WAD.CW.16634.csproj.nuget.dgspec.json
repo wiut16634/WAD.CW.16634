@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\WAD.CW.16634\\WAD.CW.16634\\WAD.CW.16634.csproj": {}
+    "D:\\Uzum\\WAD.CW.16634\\WAD.CW.16634\\WAD.CW.16634.csproj": {}
   },
   "projects": {
-    "D:\\WAD.CW.16634\\WAD.CW.16634\\WAD.CW.16634.csproj": {
+    "D:\\Uzum\\WAD.CW.16634\\WAD.CW.16634\\WAD.CW.16634.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\WAD.CW.16634\\WAD.CW.16634\\WAD.CW.16634.csproj",
+        "projectUniqueName": "D:\\Uzum\\WAD.CW.16634\\WAD.CW.16634\\WAD.CW.16634.csproj",
         "projectName": "WAD.CW.16634",
-        "projectPath": "D:\\WAD.CW.16634\\WAD.CW.16634\\WAD.CW.16634.csproj",
+        "projectPath": "D:\\Uzum\\WAD.CW.16634\\WAD.CW.16634\\WAD.CW.16634.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\WAD.CW.16634\\WAD.CW.16634\\obj\\",
+        "outputPath": "D:\\Uzum\\WAD.CW.16634\\WAD.CW.16634\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

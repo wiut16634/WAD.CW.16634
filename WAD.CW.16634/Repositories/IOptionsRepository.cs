@@ -4,6 +4,7 @@ namespace WAD.CW._16634.Repositories
 {
     public interface IOptionsRepository
     {
+        Task<IEnumerable<Option>> GetAllOptionsAsync();
         IEnumerable<Option> GetOptionsByQuestionId(int questionId);
         void Add(Option option);
         void Update(Option option);

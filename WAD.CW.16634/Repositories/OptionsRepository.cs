@@ -1,4 +1,5 @@
-﻿using WAD.CW._16634.Data;
+﻿using Microsoft.EntityFrameworkCore;
+using WAD.CW._16634.Data;
 using WAD.CW._16634.Models;
 
 namespace WAD.CW._16634.Repositories
@@ -42,6 +43,11 @@ namespace WAD.CW._16634.Repositories
         public Option GetById(int optionId)
         {
             return _context.Options.Find(optionId);
+        }
+
+        public async Task<IEnumerable<Option>> GetAllOptionsAsync()
+        {
+            return await _context.Options.ToListAsync();
         }
     }
 }
