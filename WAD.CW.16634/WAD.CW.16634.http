@@ -1,0 +1,6 @@
+@WAD.CW._16634_HostAddress = http://localhost:5197
+
+GET {{WAD.CW._16634_HostAddress}}/Survey/
+Accept: application/json
+
+###

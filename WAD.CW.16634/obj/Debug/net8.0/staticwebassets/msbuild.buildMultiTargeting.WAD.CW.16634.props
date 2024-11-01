@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\WAD.CW.16634.props" />
+</Project>
