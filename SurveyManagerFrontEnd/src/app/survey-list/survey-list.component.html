@@ -1,4 +1,12 @@
-<div class="survey-list">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="survey-list">
     <h2>All Surveys</h2>
     <div class="survey-box" *ngFor="let survey of surveys">
       <h3>{{ survey.title }}</h3>
@@ -6,3 +14,8 @@
       <button (click)="viewSurvey(survey.surveyId)">View Details</button>
     </div>
   </div>
+  <div class="create-new-survey">
+    <button (click)="navigateToSurveyCreation()">Create a New Survey</button>
+  </div>
+</body>
+</html>

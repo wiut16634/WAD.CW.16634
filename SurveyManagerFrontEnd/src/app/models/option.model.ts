@@ -1,5 +1,6 @@
 export interface Option {
-    OptionId: number;
-    OptionText: string;
-    QuestionId: number; // Foreign key
+    optionId: number;
+    optionText: string;
+    questionId: number; // Foreign key
 }
+

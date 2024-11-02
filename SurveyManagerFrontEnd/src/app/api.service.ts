@@ -16,4 +16,15 @@ export class ApiService {
   getSurveys(): Observable<Survey[]> {
     return this.http.get<Survey[]>(`${this.baseUrl}/Survey`); // Note the uppercase "S" in "Survey"
   }
+  getSurveyById(id: number): Observable<any> {
+    return this.http.get<any>(`${this.baseUrl}/Survey/${id}`);
+  }
+
+  getAllQuestions(): Observable<any[]> {
+    return this.http.get<any[]>(`${this.baseUrl}/Question`);
+  }
+
+  getAllOptions(): Observable<any[]> {
+    return this.http.get<any[]>(`${this.baseUrl}/Options`);
+  }
 }

@@ -1,1 +1,10 @@
-<p>question-form works!</p>
+<!-- survey-creation.component.html -->
+<div class="survey-creation">
+    <h2>Create a New Survey</h2>
+    <form (ngSubmit)="onSubmit()">
+      <input type="text" placeholder="Survey Title" name="title" required />
+      <textarea placeholder="Survey Description" name="description"></textarea>
+      <button type="submit">Create Survey</button>
+    </form>
+  </div>
+  

@@ -1,7 +1,7 @@
 export interface Question {
-    QuestionId: number;
-    QuestionText: string;
-    QuestionDescription: string;
-    SurveyId: number; // Foreign key
-    questionType: string; // e.g., 'multiple-choice', 'text'
+    questionId: number;
+    surveyId: number;
+    questionText: string;
+    questionDescription: string;
+    questionType: number;
 }

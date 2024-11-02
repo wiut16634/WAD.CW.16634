@@ -1,1 +1,37 @@
-<p>question-list works!</p>
+<div *ngIf="survey" class="survey-container">
+  <div class="home-link">
+    <a href="http://localhost:4200" class="home-button">Home</a>
+  </div>
+  <h2>{{ survey.title }}</h2>
+  <p>{{ survey.description }}</p>
+
+  <div *ngFor="let question of questions" class="question-box">
+    <h3>{{ question.questionText }}</h3>
+    <p>{{ question.questionDescription }}</p>
+
+ 
+    <ng-container *ngIf="options[question.questionId]?.length; else noOptions">
+      <ul class="options-list">
+        <li *ngFor="let option of options[question.questionId]">
+          {{ option.optionText }}
+        </li>
+      </ul>
+    </ng-container>
+    <ng-template #noOptions>
+      <p>-</p>
+    </ng-template>
+
+
+    <button>Update</button>
+    <button>Delete</button>
+  </div>
+
+  <!-- Button to create a new question -->
+  <div class="create-new-question">
+    <button>Create a New Question</button>
+  </div>
+</div>
+
+
+
+

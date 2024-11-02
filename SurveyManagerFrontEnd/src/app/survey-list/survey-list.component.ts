@@ -31,4 +31,7 @@ export class SurveyListComponent implements OnInit {
   viewSurvey(surveyId: number): void {
     this.router.navigate(['/survey', surveyId]);
   }
+  navigateToSurveyCreation() {
+    this.router.navigate(['/create-survey']); // Adjust the path as necessary
+  }
 }

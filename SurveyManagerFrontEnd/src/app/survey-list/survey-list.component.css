@@ -1,9 +1,22 @@
+body {
+  background-image: url('https://img.freepik.com/free-vector/abstract-smooth-geometric-white-background-with-blank-space-vector_1017-45781.jpg?semt=ais_hybrid');
+  background-size: cover; /* This makes the background image cover the entire container */
+  background-position: center; /* This centers the image */
+  background-repeat: no-repeat; /* This prevents the image from repeating */
+  padding: 20px; /* Adds padding around the content */
+  border-radius: 8px; /* Optional: adds rounded corners */
+  color: white; /* Optional: sets text color to white for better contrast */
+}
 .survey-list {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
+h2 {
+  margin-top: 0;
+  color: #000000;
+  font-size: 50px;
+}
 .survey-box {
   width: 100%;
   max-width: 400px;
@@ -41,4 +54,26 @@
 
 .survey-box button:hover {
   background-color: #0056b3;
+}
+button {
+  background-color: #007bff; /* Primary button color */
+  color: white; /* White text for buttons */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners for buttons */
+  padding: 10px 15px; /* Padding inside buttons */
+  cursor: pointer; /* Pointer cursor on hover */
+  margin-right: 10px; /* Space between buttons */
+  transition: background-color 0.3s; /* Transition for hover effect */
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Centering the Create New Question button */
+.create-new-survey {
+  display: flex; /* Flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  margin-top: 20px; /* Space above the button */
 }

@@ -1,36 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Uzum\\WAD.CW.16634\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{0F102679-EC9A-4A97-BFDD-562A90DC0245}|WAD.CW.16634\\WAD.CW.16634.csproj|d:\\uzum\\wad.cw.16634\\wad.cw.16634\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F102679-EC9A-4A97-BFDD-562A90DC0245}|WAD.CW.16634\\WAD.CW.16634.csproj|solutionrelative:wad.cw.16634\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F102679-EC9A-4A97-BFDD-562A90DC0245}|WAD.CW.16634\\WAD.CW.16634.csproj|d:\\uzum\\wad.cw.16634\\wad.cw.16634\\controllers\\optionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F102679-EC9A-4A97-BFDD-562A90DC0245}|WAD.CW.16634\\WAD.CW.16634.csproj|solutionrelative:wad.cw.16634\\controllers\\optionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F102679-EC9A-4A97-BFDD-562A90DC0245}|WAD.CW.16634\\WAD.CW.16634.csproj|d:\\uzum\\wad.cw.16634\\wad.cw.16634\\repositories\\optionsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F102679-EC9A-4A97-BFDD-562A90DC0245}|WAD.CW.16634\\WAD.CW.16634.csproj|solutionrelative:wad.cw.16634\\repositories\\optionsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F102679-EC9A-4A97-BFDD-562A90DC0245}|WAD.CW.16634\\WAD.CW.16634.csproj|d:\\uzum\\wad.cw.16634\\wad.cw.16634\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F102679-EC9A-4A97-BFDD-562A90DC0245}|WAD.CW.16634\\WAD.CW.16634.csproj|solutionrelative:wad.cw.16634\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F102679-EC9A-4A97-BFDD-562A90DC0245}|WAD.CW.16634\\WAD.CW.16634.csproj|d:\\uzum\\wad.cw.16634\\wad.cw.16634\\controllers\\questioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F102679-EC9A-4A97-BFDD-562A90DC0245}|WAD.CW.16634\\WAD.CW.16634.csproj|solutionrelative:wad.cw.16634\\controllers\\questioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F102679-EC9A-4A97-BFDD-562A90DC0245}|WAD.CW.16634\\WAD.CW.16634.csproj|d:\\uzum\\wad.cw.16634\\wad.cw.16634\\repositories\\isurveyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F102679-EC9A-4A97-BFDD-562A90DC0245}|WAD.CW.16634\\WAD.CW.16634.csproj|solutionrelative:wad.cw.16634\\repositories\\isurveyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F102679-EC9A-4A97-BFDD-562A90DC0245}|WAD.CW.16634\\WAD.CW.16634.csproj|d:\\uzum\\wad.cw.16634\\wad.cw.16634\\repositories\\questionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F102679-EC9A-4A97-BFDD-562A90DC0245}|WAD.CW.16634\\WAD.CW.16634.csproj|solutionrelative:wad.cw.16634\\repositories\\questionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -38,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 15,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -99,92 +70,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:17:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Uzum\\WAD.CW.16634\\WAD.CW.16634\\Program.cs",
-              "RelativeDocumentMoniker": "WAD.CW.16634\\Program.cs",
-              "ToolTip": "D:\\Uzum\\WAD.CW.16634\\WAD.CW.16634\\Program.cs",
-              "RelativeToolTip": "WAD.CW.16634\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T07:48:47.208Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "QuestionController.cs",
-              "DocumentMoniker": "D:\\Uzum\\WAD.CW.16634\\WAD.CW.16634\\Controllers\\QuestionController.cs",
-              "RelativeDocumentMoniker": "WAD.CW.16634\\Controllers\\QuestionController.cs",
-              "ToolTip": "D:\\Uzum\\WAD.CW.16634\\WAD.CW.16634\\Controllers\\QuestionController.cs",
-              "RelativeToolTip": "WAD.CW.16634\\Controllers\\QuestionController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T17:28:43.492Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OptionsController.cs",
-              "DocumentMoniker": "D:\\Uzum\\WAD.CW.16634\\WAD.CW.16634\\Controllers\\OptionsController.cs",
-              "RelativeDocumentMoniker": "WAD.CW.16634\\Controllers\\OptionsController.cs",
-              "ToolTip": "D:\\Uzum\\WAD.CW.16634\\WAD.CW.16634\\Controllers\\OptionsController.cs",
-              "RelativeToolTip": "WAD.CW.16634\\Controllers\\OptionsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T17:28:42.265Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "QuestionRepository.cs",
-              "DocumentMoniker": "D:\\Uzum\\WAD.CW.16634\\WAD.CW.16634\\Repositories\\QuestionRepository.cs",
-              "RelativeDocumentMoniker": "WAD.CW.16634\\Repositories\\QuestionRepository.cs",
-              "ToolTip": "D:\\Uzum\\WAD.CW.16634\\WAD.CW.16634\\Repositories\\QuestionRepository.cs",
-              "RelativeToolTip": "WAD.CW.16634\\Repositories\\QuestionRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T17:27:47.172Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ISurveyRepository.cs",
-              "DocumentMoniker": "D:\\Uzum\\WAD.CW.16634\\WAD.CW.16634\\Repositories\\ISurveyRepository.cs",
-              "RelativeDocumentMoniker": "WAD.CW.16634\\Repositories\\ISurveyRepository.cs",
-              "ToolTip": "D:\\Uzum\\WAD.CW.16634\\WAD.CW.16634\\Repositories\\ISurveyRepository.cs",
-              "RelativeToolTip": "WAD.CW.16634\\Repositories\\ISurveyRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T17:26:05.465Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OptionsRepository.cs",
-              "DocumentMoniker": "D:\\Uzum\\WAD.CW.16634\\WAD.CW.16634\\Repositories\\OptionsRepository.cs",
-              "RelativeDocumentMoniker": "WAD.CW.16634\\Repositories\\OptionsRepository.cs",
-              "ToolTip": "D:\\Uzum\\WAD.CW.16634\\WAD.CW.16634\\Repositories\\OptionsRepository.cs",
-              "RelativeToolTip": "WAD.CW.16634\\Repositories\\OptionsRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T17:25:58.368Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ApplicationDbContextModelSnapshot.cs",
-              "DocumentMoniker": "D:\\Uzum\\WAD.CW.16634\\WAD.CW.16634\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "WAD.CW.16634\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "ToolTip": "D:\\Uzum\\WAD.CW.16634\\WAD.CW.16634\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "RelativeToolTip": "WAD.CW.16634\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T17:13:12.765Z"
             }
           ]
         }
