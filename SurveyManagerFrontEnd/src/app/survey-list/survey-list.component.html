@@ -1,0 +1,8 @@
+<div class="survey-list">
+    <h2>All Surveys</h2>
+    <div class="survey-box" *ngFor="let survey of surveys">
+      <h3>{{ survey.title }}</h3>
+      <p>{{ survey.description }}</p>
+      <button (click)="viewSurvey(survey.surveyId)">View Details</button>
+    </div>
+  </div>

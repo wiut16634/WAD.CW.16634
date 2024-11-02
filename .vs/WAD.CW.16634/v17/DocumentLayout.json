@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Uzum\\WAD.CW.16634\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0F102679-EC9A-4A97-BFDD-562A90DC0245}|WAD.CW.16634\\WAD.CW.16634.csproj|d:\\uzum\\wad.cw.16634\\wad.cw.16634\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F102679-EC9A-4A97-BFDD-562A90DC0245}|WAD.CW.16634\\WAD.CW.16634.csproj|solutionrelative:wad.cw.16634\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0F102679-EC9A-4A97-BFDD-562A90DC0245}|WAD.CW.16634\\WAD.CW.16634.csproj|d:\\uzum\\wad.cw.16634\\wad.cw.16634\\controllers\\optionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F102679-EC9A-4A97-BFDD-562A90DC0245}|WAD.CW.16634\\WAD.CW.16634.csproj|solutionrelative:wad.cw.16634\\controllers\\optionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -34,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 16,
+          "SelectedChildIndex": 15,
           "Children": [
             {
               "$type": "Bookmark",
@@ -98,7 +102,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Uzum\\WAD.CW.16634\\WAD.CW.16634\\Program.cs",
+              "RelativeDocumentMoniker": "WAD.CW.16634\\Program.cs",
+              "ToolTip": "D:\\Uzum\\WAD.CW.16634\\WAD.CW.16634\\Program.cs",
+              "RelativeToolTip": "WAD.CW.16634\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T07:48:47.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "QuestionController.cs",
               "DocumentMoniker": "D:\\Uzum\\WAD.CW.16634\\WAD.CW.16634\\Controllers\\QuestionController.cs",
               "RelativeDocumentMoniker": "WAD.CW.16634\\Controllers\\QuestionController.cs",
@@ -106,25 +123,24 @@
               "RelativeToolTip": "WAD.CW.16634\\Controllers\\QuestionController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T17:28:43.492Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-01T17:28:43.492Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "OptionsController.cs",
               "DocumentMoniker": "D:\\Uzum\\WAD.CW.16634\\WAD.CW.16634\\Controllers\\OptionsController.cs",
               "RelativeDocumentMoniker": "WAD.CW.16634\\Controllers\\OptionsController.cs",
               "ToolTip": "D:\\Uzum\\WAD.CW.16634\\WAD.CW.16634\\Controllers\\OptionsController.cs",
               "RelativeToolTip": "WAD.CW.16634\\Controllers\\OptionsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-01T17:28:42.265Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "QuestionRepository.cs",
               "DocumentMoniker": "D:\\Uzum\\WAD.CW.16634\\WAD.CW.16634\\Repositories\\QuestionRepository.cs",
               "RelativeDocumentMoniker": "WAD.CW.16634\\Repositories\\QuestionRepository.cs",
@@ -132,12 +148,11 @@
               "RelativeToolTip": "WAD.CW.16634\\Repositories\\QuestionRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T17:27:47.172Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-01T17:27:47.172Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ISurveyRepository.cs",
               "DocumentMoniker": "D:\\Uzum\\WAD.CW.16634\\WAD.CW.16634\\Repositories\\ISurveyRepository.cs",
               "RelativeDocumentMoniker": "WAD.CW.16634\\Repositories\\ISurveyRepository.cs",
@@ -145,12 +160,11 @@
               "RelativeToolTip": "WAD.CW.16634\\Repositories\\ISurveyRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T17:26:05.465Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-01T17:26:05.465Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "OptionsRepository.cs",
               "DocumentMoniker": "D:\\Uzum\\WAD.CW.16634\\WAD.CW.16634\\Repositories\\OptionsRepository.cs",
               "RelativeDocumentMoniker": "WAD.CW.16634\\Repositories\\OptionsRepository.cs",
@@ -158,12 +172,11 @@
               "RelativeToolTip": "WAD.CW.16634\\Repositories\\OptionsRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T17:25:58.368Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-01T17:25:58.368Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ApplicationDbContextModelSnapshot.cs",
               "DocumentMoniker": "D:\\Uzum\\WAD.CW.16634\\WAD.CW.16634\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "WAD.CW.16634\\Migrations\\ApplicationDbContextModelSnapshot.cs",
@@ -171,8 +184,7 @@
               "RelativeToolTip": "WAD.CW.16634\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T17:13:12.765Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-01T17:13:12.765Z"
             }
           ]
         }
